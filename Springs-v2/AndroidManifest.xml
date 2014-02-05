@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="10" android:versionName="2" package="processing.test.springs">
+  <uses-sdk android:minSdkVersion="10"/>
+  <application android:debuggable="false" android:icon="@drawable/icon" android:label="Springs">
+    <activity android:name=".Springs">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>
